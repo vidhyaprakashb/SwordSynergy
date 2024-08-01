@@ -34,7 +34,10 @@ public class LoginPage {
 		emailAddress.sendKeys("vidhyaprakash.b@swordgroup.in");
 		password.sendKeys("12011987@Bv");
 		loginBtn.click();
+		return new DashboardPage();
 	}
+	
+	
 
 	
 	
