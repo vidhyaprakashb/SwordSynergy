@@ -29,12 +29,12 @@ public class LoginPage {
 		driver.get(synergyUrl);
 	}
 	
-	public void loginSynergy() 
+	public DashboardPage loginSynergy() 
 	{
 		emailAddress.sendKeys("vidhyaprakash.b@swordgroup.in");
 		password.sendKeys("12011987@Bv");
 		loginBtn.click();
-		return new DashboardPage();
+		return new DashboardPage(driver);
 	}
 	
 	
